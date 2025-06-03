@@ -1,0 +1,61 @@
+Folder PATH listing
+Volume serial number is 84AB-A255
+C:.
+³   .classpath
+³   .project
+³   pom.xml
+³   tree.txt
+³   
+ÃÄÄÄ.settings
+³       org.eclipse.core.resources.prefs
+³       org.eclipse.jdt.core.prefs
+³       org.eclipse.m2e.core.prefs
+³       
+ÃÄÄÄsrc
+³   ÃÄÄÄmain
+³   ³   ÃÄÄÄjava
+³   ³   ³   ÀÄÄÄcom
+³   ³   ³       ÀÄÄÄtommustbe12
+³   ³   ³           ³   JoinMessage.java
+³   ³   ³           ³   Main.Java
+³   ³   ³           ³   
+³   ³   ³           ÀÄÄÄjoinmessage
+³   ³   ÀÄÄÄresources
+³   ³           config.yml
+³   ³           plugin.yml
+³   ³           
+³   ÀÄÄÄtest
+³       ÃÄÄÄjava
+³       ÀÄÄÄresources
+ÀÄÄÄtarget
+    ³   JoinMessage.jar
+    ³   original-JoinMessage.jar
+    ³   
+    ÃÄÄÄclasses
+    ³   ³   config.yml
+    ³   ³   plugin.yml
+    ³   ³   
+    ³   ÀÄÄÄcom
+    ³       ÀÄÄÄtommustbe12
+    ³               JoinMessage.class
+    ³               
+    ÃÄÄÄgenerated-sources
+    ³   ÀÄÄÄannotations
+    ÃÄÄÄgenerated-test-sources
+    ³   ÀÄÄÄtest-annotations
+    ÃÄÄÄmaven-archiver
+    ³       pom.properties
+    ³       
+    ÃÄÄÄmaven-status
+    ³   ÀÄÄÄmaven-compiler-plugin
+    ³       ÃÄÄÄcompile
+    ³       ³   ÀÄÄÄdefault-compile
+    ³       ³           createdFiles.lst
+    ³       ³           inputFiles.lst
+    ³       ³           
+    ³       ÀÄÄÄtestCompile
+    ³           ÀÄÄÄdefault-testCompile
+    ³                   createdFiles.lst
+    ³                   inputFiles.lst
+    ³                   
+    ÀÄÄÄtest-classes

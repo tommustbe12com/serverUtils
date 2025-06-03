@@ -1,0 +1,54 @@
+name: ServerUtils
+version: 1.0
+main: com.tommustbe12.JoinMessage
+api-version: 1.21
+
+commands:
+  setjoinmessage:
+    description: Enable or disable custom join messages
+    usage: /setjoinmessage <on|off>
+    permission: serverutils.set
+  
+  setjoinmessagecontent:
+    description: Set the join message content. Use & for colors and {player} for the player's name.
+    usage: /setjoinmessagecontent <message>
+    permission: serverutils.set
+
+  youtube:
+    description: Show the plugin creator’s YouTube channel
+    usage: /youtube
+    permission: serverutils.youtube
+
+  rysterio:
+    description: Rysterio youtube channel sus
+    usage: /rysterio
+    permission: serverutils.youtube
+  tellall:
+    description: Sends a message to all online players, color codes supported
+    usage: /tellall <message>
+    permission: serverutils.tellall
+  tw:
+    description: Sets time to day, weather to clear in current world.
+    usage: /tw
+  serverutils:
+    description: Tells information about JoinMessage.
+    usage: /joinmessage
+    permission: serverutils.help
+
+
+permissions:
+  serverutils.set:
+    description: Allows setting join message on/off
+    default: op
+
+  serverutils.youtube:
+    description: Allows use of /youtube command and /rysterio command (youtube channel commands)
+    default: true
+
+  serverutils.tellall:
+    description: Allows use of /tellall command to tell all online players something with color codes.
+    default: op
+
+  serverutils.help:
+    description: Allows use of /serverutils for help with serverutils commands.
+    default: op
